@@ -1,2 +1,24 @@
 .env
 venv
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Variables file (contains sensitive information like credentials)
+*.tfvars
+
+# Terraform plan output files
+*.tfplan
+
+# .terraform directory
+.terraform/
+
+# Override files
+*.override.tf
+override.tf
+
+# Terraform provider lock file
+*.terraform.lock.hcl
+
+python
